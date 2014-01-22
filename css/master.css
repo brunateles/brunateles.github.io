@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+/* CSS DOCUMENT */
+
+body{
+	background-color:#B2B2B2;
+	margin:0px;
+	background:#FFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 { width: 220px; margin:10px; font-family: verdana; color:#a84570; border-bottom: 2px dashed #a84570; }
+
+h2 { margin:10px; font-family: arial; color:#cf7299 }
+
+h3 { margin:10px; font-family: arial; color:#cf7299 }
+
+a{color:#a84570; text-decoration: none;}
+
+
+#geral{
+	width:960px;
+	height:auto;
+	margin: 0px auto;
+	padding:0px;
+	background:#FFF;
+}
+
+#selector{
+	width:100%;
+	height:90px;
+	background-color:#a84570;
+	color: #FFF;
+	position:fixed;
+	float:left;
+	clear:both;
+	opacity:0.85;
+}
+
+
+#fita {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#identidade{
+	margin-top:20px;
+	float:left;
+	}
+
+
+#menu{
+	float: left;
+	margin-left:190px;
+	margin-top:30px;
+}
+
+#menu ul {width:auto; height:auto; padding:0px; margin:0px}
+
+#menu ul li {
+	width:auto;
+	height:auto;
+	padding:0px;
+	margin:5px;
+	list-style:none;
+	display:inline;
+
+}
+
+#menu ul li a {
+	font-size:22px;
+	font-family:verdana;
+	text-decoration:none;
+	padding:0px 10px;
+	margin:0px;
+	color:#FFF;
+
+
+}
+
+#menu ul li a:hover{
+	background-color:#cf7299;
+	color:#8e365b;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px
+}
+
+/*Divs Conteúdo */
+
+#conteudo{
+	min-height: 600px;
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+	margin-top: 90px;
+	padding:0px;
+	clear: both;
+	float:left;
+	background-color: #FFF}
+
+#home{
+
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding-top:135px;
+	clear: both;
+	float:left;
+	background-color: #FFF}
+
+#home p{margin:10px; font-family: verdana; font-size: 18px ;color:#737373}
+
+
+#sobre{
+
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding-top:135px;
+	clear: both;
+	float:left;
+	background-color: #FFF}
+
+#sobre p{margin:10px; font-family: verdana; font-size: 16px ;color:#cf7299}
+
+#foto img{ width: 150px; height: 150px;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px}
+
+#descricao{width: 495px; height:auto; margin-left:15px; background-color: #FFF}
+
+#descricao p{margin:10px; font-family: verdana; font-size: 16px ; color:#737373; background-color: #FFF}
+
+
+#portfolio{
+
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding-top: 135px;
+	clear: both;
+	float:left;
+	background-color: #FFF}
+
+#portfolio p{margin:10px; font-family: verdana; font-size: 18px ;color:#737373}
+
+
+#amostra{width:auto; height:auto; background-color: #FFF; margin:0px;}
+
+#amostra ul{width:auto; height:auto; margin:0px; padding:0px;}
+
+#amostra ul li{list-style:none; display: inline;}
+
+#amostra ul li img{width:140px; height:140px; margin:8px;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px}
+
+
+#contato{
+
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding-top:155px;
+	padding-bottom:45px;
+	clear: both;
+	float:left;
+	background-color: #FFF}
+
+#contato p{margin:10px; font-family: verdana; font-size: 18px ;color:#737373}
+
+#contato a{color:#ff3366; text-decoration: none}
+
+#contato a:hover{color:#989798;}
+
+#contato ul{padding-left: 420px ;float:left; background-color: #FFF}
+
+#contato ul li{width:auto; height:auto; margin:5px; list-style: none; display: inline;}
+
+#contato ul li img{width: 30px; height:30px}
+
+#postagem{
+
+	width:630px;
+	height:auto;
+	margin:0px;
+	padding:10px;
+	float:left;
+	background-color: #FFF;
+	border-right: 2px dashed #a84570;}
+
+#postagem p{margin:10px; font-family: verdana; font-size: 16px ;color:#737373}
+
+#lateral{
+
+	width:300px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	float:right;
+	background-color: #FFF;
+	}
+
+#lateral p{margin:10px; font-family: verdana; font-size: 16px ;color:#737373}
+
+#lateral img { width: 150px; height: 150px;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px}
+
+#guias{
+
+	width:auto;
+	height:auto;
+	margin:10px;
+	margin-top:50px;
+	padding:0px;
+	float:left;
+	background-color: #FFF;
+	}
+
+
+/* Divs Rodapé */
+
+#rodape{
+
+	width:100%;
+	height:60px;
+	clear:both;
+	float:right;
+	background-color: #a84570}
+
+#copy{width:543px;
+	height:auto;
+	margin:0px;
+	padding-left:10px;
+	padding-top: 10px;
+	margin:0px;
+	}
+
+#copy p {
+	font-family: verdana;
+	font-size:12px;
+	color:#FFF;
+	;}
+
+
+/* Typography */
+a {
+	text-decoration: none;
+}

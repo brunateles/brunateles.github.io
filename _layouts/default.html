@@ -1,44 +1,78 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<head>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+<meta charset="utf-8" />
 
-    </head>
-    <body>
+<title>{{ page.title }} - Bruna Teles - Design Gráfico</title>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+<link type="text/css" rel="stylesheet" href="/css/master.css" />
+<link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+
+<!-- inicio selector-->
+
+  <div id="selector">
+    <div id="fita">
+      <!-- inicio identidade-->
+      <div id="identidade">
+          <img src="/images/brunalogo_banner.png" />
+      </div>
+          <!-- fim identidade-->
+       <!-- inicio menu-->
+      <div id="menu">
+          <ul>
+              <li><a href="/index.html#home">Home</a></li>
+              <li><a href="/index.html#sobre">Sobre</a></li>
+              <li><a href="/index.html#portfolio">Portfólio</a></li>
+              <li><a href="/index.html#contato">Contato</a></li>
+              <li><a href="/blog.html">Blog</a></li>
+          </ul>
+      </div>
+      <!-- fim menu-->
+    </div>
+  </div>
+
+  <!-- fim selector-->
+
+<!-- inicio geral-->
+<div id="geral">
+    <div id="conteudo">
+      {{ content }}
+    </div>
+    <!-- fim conteudo -->
+</div>
+<!-- fim geral -->
+
+
+          <!--inicio rodapé-->
+          <div id="rodape">
+
+          <center>
+
+                 <div id="copy">
+
+
+                 <p> &copy; 2014 - Layout e conteúdo exclusivo de brunateles.com.br - Todos os direiros reservados.</p>
+
+
+                 </div>
+
+              </center>
+
           </div>
+          <!--final rodapé-->
 
-          {{ content }}
+<script type="text/javascript" src="/javascript/prototype.js"></script>
+<script type="text/javascript" src="/javascript/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/javascript/lightbox.js"></script>
+<script type="text/javascript" src="/javascript/smooth_scrolling.js"></script>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+</body>
 
-    </body>
 </html>

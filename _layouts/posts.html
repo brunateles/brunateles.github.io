@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div id="postagem">
+    <p>
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.date | date_to_string }}</h2>
+    </p>
+
+
+    {{ content }}
+
+    <h3>(0) Comentários.</h3>
+
+</div>
+
+{% include guia.html %}
