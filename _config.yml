@@ -1,3 +1,5 @@
 name: Bruna Teles Website
 markdown: redcarpet
 pygments: true
+tag_page_layout: tag_page
+tag_page_dir: tag
