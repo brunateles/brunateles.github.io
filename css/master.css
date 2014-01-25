@@ -101,8 +101,8 @@ a{color:#a84570; text-decoration: none;}
 
 	width:100%;
 	height:auto;
-	margin:0px;
-	padding-top:135px;
+	margin:5px 0 0 0;
+	padding-top:45px;
 	clear: both;
 	float:left;
 	background-color: #FFF}
@@ -182,9 +182,10 @@ a{color:#a84570; text-decoration: none;}
 	height:auto;
 	margin-top:10px;
 	padding-bottom: 80px;
+	padding-right: 25px;
 	float:left;
 	background-color: #FFF;
-	border-right: 2px dashed #a84570;}
+	border-right: 2px dashed #cf7299;}
 
 #postagem p{margin:10px; font-family: verdana; font-size: 16px ;color:#737373}
 
