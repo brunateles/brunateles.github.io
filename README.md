@@ -20,7 +20,7 @@ After making changes, send them to github:
 
 - git add --all
 - git commit -m "Replace this with your message"
-- git push
+- git push origin source
 
 To publish the changes:
 

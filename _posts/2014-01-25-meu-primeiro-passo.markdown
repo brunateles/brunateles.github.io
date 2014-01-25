@@ -6,8 +6,6 @@ categories: Relatos
 tags: Relatos
 ---
 
-teste
-
 Finalmente termino a minha missão de férias: construir o meu site pessoal! Além de ser uma necessidade fundamental para se inserir no mercado de trabalho, o desejo de ter minha própria página na internet estava associado também a vontade de acompanhar e registrar meu desenvolvimento na área.
 
 Essa missão não foi nada fácil, ainda mais por eu ser iniciante, mas consegui realizá-lo por encara-lo como um projeto que contou com um bom planejamento, muitas pesquisas e bastante disciplina para desenvolve-lo dentro do prazo que defini para mim mesma.
