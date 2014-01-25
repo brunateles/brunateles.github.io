@@ -9,7 +9,7 @@ body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 { width: 220px; margin:10px; font-family: verdana; color:#a84570; border-bottom: 2px dashed #a84570; }
+h1 { margin:10px; font-family: verdana; color:#a84570; }
 
 h2 { margin:10px; font-family: arial; color:#cf7299 }
 
@@ -114,8 +114,8 @@ a{color:#a84570; text-decoration: none;}
 
 	width:100%;
 	height:auto;
-	margin:0px;
-	padding-top:135px;
+	margin:135px 0 0 0;
+	padding-top:110px;
 	clear: both;
 	float:left;
 	background-color: #FFF}
@@ -134,8 +134,8 @@ a{color:#a84570; text-decoration: none;}
 
 	width:100%;
 	height:auto;
-	margin:0px;
-	padding-top: 135px;
+	margin:135px 0 0 0;
+	padding-top:110px;
 	clear: both;
 	float:left;
 	background-color: #FFF}
@@ -157,9 +157,9 @@ a{color:#a84570; text-decoration: none;}
 
 	width:100%;
 	height:auto;
-	margin:0px;
-	padding-top:155px;
-	padding-bottom:45px;
+	margin:135px 0 0 0;
+	padding-top:30px;
+	padding-bottom:95px;
 	clear: both;
 	float:left;
 	background-color: #FFF}
@@ -180,8 +180,8 @@ a{color:#a84570; text-decoration: none;}
 
 	width:630px;
 	height:auto;
-	margin:0px;
-	padding:10px;
+	margin-top:10px;
+	padding-bottom: 80px;
 	float:left;
 	background-color: #FFF;
 	border-right: 2px dashed #a84570;}
@@ -220,16 +220,18 @@ a{color:#a84570; text-decoration: none;}
 #rodape{
 
 	width:100%;
-	height:60px;
+	height:45px;
 	clear:both;
 	float:right;
-	background-color: #a84570}
+	background-color: #b2597f;
+	z-index: 2;
+	position: fixed;
+	bottom: 0;}
 
 #copy{width:543px;
 	height:auto;
 	margin:0px;
 	padding-left:10px;
-	padding-top: 10px;
 	margin:0px;
 	}
 
