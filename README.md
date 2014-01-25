@@ -1,6 +1,8 @@
 === Instructions
 
-Requirements: Make sure you have an SSH key setup to your Github account (https://help.github.com/articles/generating-ssh-keys).
+Requirements:
+- Make sure you have an SSH key setup to your Github account (https://help.github.com/articles/generating-ssh-keys).
+- Make sure you have git installed.
 
 The following is needed the first time setting up Jekyll in a development machine
 (it needs to be run in the console under the project directory):
