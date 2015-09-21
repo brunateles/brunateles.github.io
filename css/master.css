@@ -1,249 +1,261 @@
 @charset "utf-8";
 
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 /* CSS DOCUMENT */
 
-body{
-	background-color:#B2B2B2;
-	margin:0px;
-	background:#FFF;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.col {
+  display: table-cell;
+  vertical-align: top;
 }
 
-h1 { margin:10px; font-family: verdana; color:#a84570; }
-
-h2 { margin:10px; font-family: arial; color:#cf7299 }
-
-h3 { margin:10px; font-family: arial; color:#cf7299 }
-
-a{color:#a84570; text-decoration: none;}
-
-
-#geral{
-	width:960px;
-	height:auto;
-	margin: 0px auto;
-	padding:0px;
-	background:#FFF;
+.container {
+  width: 1040px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-#selector{
+.row {
+  display: table;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto';
+}
+
+h1 { color:#9f2720; font-size: 2em; text-align: center; margin-bottom: 15px;}
+
+h2 { font-size: 1.5em; font-family: arial; color:#636466; margin-bottom: 15px; line-height: 1.3em;}
+
+a { color:#9f2720; text-decoration: none; font-weight: bold;}
+
+p {
+  line-height: 1.5em;
+}
+
+b {
+  font-weight: bold;
+}
+
+.active {font-weight: bold; color:#414042;}
+
+#header{
 	width:100%;
 	height:90px;
-	background-color:#a84570;
+	background-color:#dcddde;
 	color: #FFF;
 	position:fixed;
-	float:left;
-	clear:both;
+	top: 0;
 	opacity:0.85;
+	-webkit-box-shadow: 1px 0.8px 1px #a1a2a2;
 }
 
-
-#fita {
-	width: 960px;
-	margin: 0px auto;
+#header .container {
+	margin-top: 15px;
 }
 
-#identidade{
-	margin-top:20px;
-	float:left;
-	}
-
-
-#menu{
-	float: left;
-	margin-left:190px;
-	margin-top:30px;
+#header .row > div {
+	vertical-align: middle;
 }
-
-#menu ul {width:auto; height:auto; padding:0px; margin:0px}
 
 #menu ul li {
-	width:auto;
-	height:auto;
-	padding:0px;
-	margin:5px;
 	list-style:none;
 	display:inline;
-
 }
 
 #menu ul li a {
-	font-size:22px;
-	font-family:verdana;
+  font-size: 1.5em;
+  font-weight: normal;
 	text-decoration:none;
 	padding:0px 10px;
 	margin:0px;
-	color:#FFF;
-
-
+	color:#000;
 }
 
-#menu ul li a:hover{
-	background-color:#cf7299;
-	color:#8e365b;
-	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px
+#menu ul li a:hover {
+	background-color:#626366;
+	color:#FFF;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px;
+}
+
+#language{
+	width: 80px;
+	color: #6d6e71;
+	padding: 5px;
+	background: #b1b3b6;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px;
+}
+
+#language ul {
+	text-align: center;
+}
+
+#language ul li {
+	list-style:none;
+	display:inline;
+}
+
+#language li + li::before {
+  content: " | ";g
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#language ul li a {
+	text-decoration:none;
+	color:#414042;
+}
+
+#language ul li a:hover{
+	color:#808285;
+}
+
+#home {
+	background: url("../images/testeyellowF52.png") no-repeat;
+	background-position: top center;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	height: 100%;
+  min-height: 590px;
+}
+
+#homeintro {
+	color:#FFF;
+  padding-top: 270px;
+}
+
+#homeintro h1 {
+	font-size: 3em;
+}
+
+#homeintro h1, #homeintro h2 {
+  color: #FFF;
+	text-align: right;
 }
 
 /*Divs Conteúdo */
+#geral{
+	background:#FFF;
+}
 
 #conteudo{
-	min-height: 600px;
-	width:100%;
-	height:auto;
-	margin: 0 auto;
 	margin-top: 90px;
-	padding:0px;
-	clear: both;
-	float:left;
-	background-color: #FFF}
-
-#home{
-
-	width:100%;
-	height:auto;
-	margin:5px 0 0 0;
-	padding-top:45px;
-	clear: both;
-	float:left;
-	background-color: #FFF}
-
-#home p{margin:10px; font-family: verdana; font-size: 18px ;color:#737373}
-
+	background-color: #FFF
+}
 
 #sobre{
+	padding-top:135px;
+	background-color: #fff
+}
 
-	width:100%;
-	height:auto;
-	margin:135px 0 0 0;
-	padding-top:110px;
-	clear: both;
-	float:left;
-	background-color: #FFF}
+#foto img {
+	width: 250px;
+	height: 250px;
+	border-radius: 0px 30px 0px 30px; -moz-border-radius: 0px 30px 0px 30px; -webkit-border-radius: 0px 30px 0px 30px;
+}
 
-#sobre p{margin:10px; font-family: verdana; font-size: 16px ;color:#cf7299}
+#descricao {
+	vertical-align: middle;
+	background-color: #FFF;
+	padding-left: 45px;
+}
 
-#foto img{ width: 150px; height: 150px;
-	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px}
+#descricao p {
+	margin-bottom: 10px;
+	text-align: justify;
+	color:#414042;
+	background-color: #FFF
+}
 
-#descricao{width: 495px; height:auto; margin-left:15px; background-color: #FFF}
+#portfolio {
+	text-align: center;
+	padding-top: 135px;
+	background-color: #FFF;
+}
 
-#descricao p{margin:10px; font-family: verdana; font-size: 16px ; color:#737373; background-color: #FFF}
+#portfolio p {
+	margin:10px;
+	color:#737373;
+}
 
+#portfolio ul{
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-#portfolio{
+#portfolio ul li{
+	list-style:none; display: inline;
+}
 
-	width:100%;
-	height:auto;
-	margin:135px 0 0 0;
-	padding-top:110px;
-	clear: both;
-	float:left;
-	background-color: #FFF}
-
-#portfolio p{margin:10px; font-family: verdana; font-size: 18px ;color:#737373}
-
-
-#amostra{width:auto; height:auto; background-color: #FFF; margin:0px;}
-
-#amostra ul{width:auto; height:auto; margin:0px; padding:0px;}
-
-#amostra ul li{list-style:none; display: inline;}
-
-#amostra ul li img{width:140px; height:140px; margin:8px;
-	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px}
-
+#portfolio ul li img{
+	width:100px;
+	height:100px;
+	margin:8px;
+	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px;
+}
 
 #contato{
-
-	width:100%;
-	height:auto;
-	margin:135px 0 0 0;
-	padding-top:30px;
-	padding-bottom:95px;
-	clear: both;
-	float:left;
-	background-color: #FFF}
-
-#contato p{margin:10px; font-family: verdana; font-size: 18px ;color:#737373}
-
-#contato a{color:#ff3366; text-decoration: none}
-
-#contato a:hover{color:#989798;}
-
-#contato ul{padding-left: 420px ;float:left; background-color: #FFF}
-
-#contato ul li{width:auto; height:auto; margin:5px; list-style: none; display: inline;}
-
-#contato ul li img{width: 30px; height:30px}
-
-#postagem{
-
-	width:630px;
-	height:auto;
-	margin-top:10px;
-	padding-bottom: 80px;
-	padding-right: 25px;
-	float:left;
+	text-align: center;
+	padding-top:180px;
+	padding-bottom:80px;
 	background-color: #FFF;
-	border-right: 2px dashed #cf7299;}
+}
 
-#postagem p{margin:10px; font-family: verdana; font-size: 16px ;color:#737373}
+#contactme p {
+	margin:5px;
+	color:#414042;
+}
 
-#lateral{
+#contactme p:first-child {
+  margin-bottom: 20px;
+}
 
-	width:300px;
-	height:auto;
-	margin:0px;
-	padding:0px;
-	float:right;
+#contactme ul{
 	background-color: #FFF;
-	}
+  margin-top: 20px;
+}
 
-#lateral p{margin:10px; font-family: verdana; font-size: 16px ;color:#737373}
+#contactme ul li {
+	margin:5px; list-style: none; display: inline;
+}
 
-#lateral img { width: 150px; height: 150px;
-	border-radius: 30px 30px 30px 30px; -moz-border-radius: 30px 30px 30px 30px; -webkit-border-radius: 30px 30px 30px 30px}
-
-#guias{
-
-	width:auto;
-	height:auto;
-	margin:10px;
-	margin-top:50px;
-	padding:0px;
-	float:left;
-	background-color: #FFF;
-	}
-
+#contactme ul li img {
+	width: 30px;
+	height:30px;
+	padding-top: 10px;
+}
 
 /* Divs Rodapé */
 
 #rodape{
+	text-align: center;
+	height:60px;
+	background-color: #dcddde;
+}
 
-	width:100%;
-	height:45px;
-	clear:both;
-	float:right;
-	background-color: #b2597f;
-	z-index: 2;
-	position: fixed;
-	bottom: 0;}
-
-#copy{width:543px;
-	height:auto;
-	margin:0px;
+#copy{
 	padding-left:10px;
-	margin:0px;
-	}
+	padding-top: 10px;
+}
 
 #copy p {
-	font-family: verdana;
-	font-size:12px;
-	color:#FFF;
-	;}
+  font-size: 0.85em;
+	color:#000;
+}
 
 
 /* Typography */
 a {
 	text-decoration: none;
+}
+
+#imageData #caption {
+	font-weight: normal;
 }
